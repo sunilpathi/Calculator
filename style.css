@@ -1,0 +1,43 @@
+body{
+    background-image: url(calc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#Calculator {
+    border: 3px solid whitesmoke;
+    width: 300px;
+    border-radius: 2px;
+    padding: 25px;
+}
+.display{
+    width: 250px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    
+}
+.button{
+    height: 80px;
+    width: 80px;
+    margin: 3px;
+    font-size: 30px;
+    background-color: rgb(237, 89, 89);
+    
+}
+.button_Container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#symbol{
+    background-color:lightgreen ;
+}
+#sym{
+    background-color:orange;
+}
+p{
+    color: aliceblue;
+}
